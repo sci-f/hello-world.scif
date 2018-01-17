@@ -1,0 +1,18 @@
+%apprun hello-world
+    /bin/bash hello-world.sh
+%appinstall hello-world
+    echo "echo 'Hello World!'" >> $SCIF_APPBIN/hello-world.sh
+    chmod u+x $SCIF_APPBIN/hello-world.sh
+%appenv hello-world
+    THEBESTAPP=$SCIF_APPNAME
+    export THEBESTAPP
+%applabels hello-world
+    MAINTAINER Vanessasaur
+    VERSION 1.0
+%apphelp
+    This is an example "Hello World" application. You can install it to a 
+    Scientific Filesystem (scif) with the command:
+        scif install hello-world.scif
+
+    if you need to install scif:
+        pip install scif
