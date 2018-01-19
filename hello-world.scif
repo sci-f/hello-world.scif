@@ -13,6 +13,8 @@
     This is an example "Hello World" application. You can install it to a 
     Scientific Filesystem (scif) with the command:
         scif install hello-world.scif
-
+    It doesn't take any arguments, it will just print Hello World! when you
+    run it. To do that:
+        scif run hello-world
     if you need to install scif:
         pip install scif
