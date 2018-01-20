@@ -4,8 +4,8 @@ Hello World! This is the getting started example to build a Scentific Filesystem
 For maximum reproducibility, we will do this inside a linux container, both Docker
 and Singularity.
 
-Read more about the [specification here](https://www.github.com/vsoch/scif/spec)
-Read more about the [definition file](https://www.github.com/vsoch/scif/specification#recipe)
+Read more about the [specification here](https://www.github.com/sci-f/sci-f.github.io/spec)
+Read more about the [definition file](https://www.github.com/sci-f/sci-f.github.io/specification#recipe)
 
 ## Overview
 The definition file [hello-world.scif](hello-world.scif) in this repository is the 
@@ -29,8 +29,7 @@ The scif is then installed as follows (with root)
 scif install hello-world.scif
 ```
 
-For the instructions below, we will interact with the scif from inside the containers. If you want examples for interaction from outside of each container, see the [official documentation quick start](https://vsoch.github.io/scif/tutorial-quick-start) that have more details. If you want to see the Docker and Singularity commands side by side, see the [really quick start](https://vsoch.github.io/scif/tutorial-really-quick-start).
-
+For the instructions below, we will interact with the scif from inside the containers. If you want examples for interaction from outside of each container, see the [official documentation quick start](https://sci-f.github.io/tutorial-quick-start) that have more details. If you want to see the Docker and Singularity commands side by side, see the [really quick start](https://sci-f.github.io/tutorial-really-quick-start).
 
 ## Docker
 
